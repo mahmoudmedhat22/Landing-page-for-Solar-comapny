@@ -1,4 +1,4 @@
-/* General Styling */
+ /* General Styling */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -35,8 +35,8 @@ nav ul li a {
   font-size: 18px;
 }
 
-/* Hero Section */
-.hero-section {
+/*  Section1 */
+.section1 {
   background-image: url('../image/solar-panels-meadow 1.png');
   background-size: cover;
   background-position: center;
@@ -45,12 +45,12 @@ nav ul li a {
   text-align: center;
 }
 
-.hero-content h1 {
+.content1 h1 {
   font-size: 40px;
   margin-bottom: 20px;
 }
 
-.hero-content p {
+.content1 p {
   font-size: 20px;
   margin-bottom: 30px;
 }
@@ -75,8 +75,8 @@ nav ul li a {
   font-size: 16px;
   border-radius: 20px;
 }
-/* Info Section */
-.info-section {
+/*Section2 */
+.section2 {
   padding: 50px 20px;
   background-color: #f8f8f8;
   display: flex;
@@ -85,16 +85,16 @@ nav ul li a {
   text-align: left;
 }
 
-.info-content {
+.content2 {
   max-width: 50%;
 }
 
-.info-content h2 {
+.content2 h2 {
   font-size: 30px;
   margin-bottom: 20px;
 }
 
-.info-content p {
+.content2 p {
   font-size: 18px;
   margin-bottom: 30px;
 }
@@ -111,12 +111,12 @@ nav ul li a {
   font-weight: bold;
 }
 
-.info-image {
+.image2 {
   position: relative;
   text-align: center;
 }
 
-.info-image img {
+.image2 img {
   width: 300px;
 }
 
@@ -132,8 +132,8 @@ nav ul li a {
   width: 100px; ;
 }
 
-/* Call to Action Section */
-.call-to-action-section {
+/*Section3 */
+.section3 {
   background-image: url('../image/8116 1.png') ;
   background-size: cover;
   background-position: center;
@@ -143,17 +143,17 @@ nav ul li a {
   padding: 50px 20px;
 }
 
-.call-to-action-section h2 {
+.section3 h2 {
   font-size: 36px;
   margin-bottom: 20px;
 }
 
-.call-to-action-section p {
+.section3 p {
   font-size: 18px;
   margin-bottom: 30px;
 }
 
-.call-to-action-section button {
+.section3 button {
   background-color: #ffb300;
   border: none;
   border-radius: 20px;
@@ -163,8 +163,8 @@ nav ul li a {
   cursor: pointer;
 }
 
-/* Solar Kits Section */
-.solar-kits-section {
+/* Section4 */
+.section4 {
   padding: 50px 20px;
   text-align: center;
   font-size: large;
@@ -184,8 +184,8 @@ nav ul li a {
   margin: 9px;
 }
 
-/* Repair Section */
-.repair-section {
+/* Section5 */
+.section5 {
   background-color: #f8f8f8;
   padding: 50px 20px;
   text-align: center;
@@ -198,10 +198,8 @@ nav ul li a {
   padding: 50px 20px;
 }
 
-.repair-content p {
-  opacity: 1;
-}
-.repair-content {
+
+.content5 {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -214,7 +212,7 @@ nav ul li a {
 }
 
 
-.repair-content img {
+.content5 img {
   width: 250px;
 }
 .section6{
