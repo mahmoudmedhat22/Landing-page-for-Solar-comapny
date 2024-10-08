@@ -1,0 +1,232 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+header {
+  background-color: #009688;
+  padding: 20px;
+  color: white;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-info {
+  font-size: 18px;
+}
+
+/* Hero Section */
+.hero-section {
+  background-image: url('../image/solar-panels-meadow 1.png');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.one {
+  background-color: #00bfa5;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 20px;
+}
+.two {
+  background-color: #ffaf01;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 20px;
+}
+/* Info Section */
+.info-section {
+  padding: 50px 20px;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: left;
+}
+
+.info-content {
+  max-width: 50%;
+}
+
+.info-content h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.info-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.info-list {
+  list-style: none;
+  padding: 0;
+}
+
+.info-list li {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.info-image {
+  position: relative;
+  text-align: center;
+}
+
+.info-image img {
+  width: 300px;
+}
+
+.highlight-box {
+  position: absolute;
+  bottom: 20px;
+  left: 10%;
+  transform: translateX(-50%);
+  background-color: #ffc107;
+  padding: 10px;
+  font-size: 16px;
+  color: #000;
+  width: 100px; ;
+}
+
+/* Call to Action Section */
+.call-to-action-section {
+  background-image: url('../image/8116 1.png') ;
+  background-size: cover;
+  background-position: center;
+  color: rgb(0, 0, 0);
+  padding: 100px 20px;
+  /* text-align: center; */
+  padding: 50px 20px;
+}
+
+.call-to-action-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.call-to-action-section p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.call-to-action-section button {
+  background-color: #ffb300;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 15px 30px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Solar Kits Section */
+.solar-kits-section {
+  padding: 50px 20px;
+  text-align: center;
+  font-size: large;
+}
+
+.kits-grid {
+  display: flex;
+  justify-content: space-around;
+}
+
+.kit-item {
+  text-align: center;
+}
+
+.kit-item img {
+  width: 280px;
+  margin: 9px;
+}
+
+/* Repair Section */
+.repair-section {
+  background-color: #f8f8f8;
+  padding: 50px 20px;
+  text-align: center;
+  height: 400px;
+  background-image: url('../image/8116\ 1\ \(1\).png') ;
+  background-size: cover;
+  background-position: center;
+  color: rgb(0, 0, 0);
+  padding: 100px 20px;
+  padding: 50px 20px;
+}
+
+.repair-content p {
+  opacity: 1;
+}
+.repair-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #263238;
+  height: 200px;
+  opacity: .7;
+  color: #ffffff;
+  font-weight: bolder;
+  border-radius: 20px;
+}
+
+
+.repair-content img {
+  width: 250px;
+}
+.section6{
+  height: 300px;
+
+}
+
+
+/* Footer */
+footer {
+  background-color: #263238;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
